@@ -1022,7 +1022,7 @@ section,
 .services .service-item {
   background-color: var(--surface-color);
   box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.1);
-  padding: 60px 30px 60px 70px;
+  /* padding: 60px 30px 60px 70px; */
   transition: all ease-in-out 0.3s;
   border-radius: 18px;
   height: 100%;
@@ -1063,6 +1063,16 @@ section,
   .services .service-item:hover h3 {
     color: var(--accent-color);
   }
+}
+
+.service-img {
+  height: 220px;
+}
+
+.service-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 /*--------------------------------------------------------------
